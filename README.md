@@ -1,4 +1,4 @@
-# 🎲 Pig Game
+# 🎲 Mouse race
 
 A simple, interactive dice game for two players built with Vanilla JavaScript. The goal is to be the first player to reach 100 points.
 
@@ -37,4 +37,5 @@ A simple, interactive dice game for two players built with Vanilla JavaScript. T
 * **Winner State:** Disables the game buttons once a player hits the 100-point threshold to prevent further moves.
 
 ## 📄 License
-This project was created for educational purposes as part of a JavaScript learning journey.
+This project was created for educational purposes as part of a JavaScript Course by Jonas Schemdtmann
+
