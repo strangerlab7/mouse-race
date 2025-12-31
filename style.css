@@ -169,3 +169,72 @@ main {
 .hidden {
   display: none;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%; /* Scales down all rem units for smaller screens */
+  }
+
+  body {
+    padding: 2rem;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  main {
+    flex-direction: column; /* Stack players vertically */
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+  }
+
+  .player {
+    padding: 6rem 2rem;
+    flex: none;
+    width: 100%;
+  }
+
+  /* Adjust scores and names for mobile */
+  .name {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .current {
+    width: 80%;
+    padding: 1.5rem;
+  }
+
+  /* Repositioning absolute elements for vertical layout */
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+  }
+
+  .btn--new {
+    top: 2rem;
+  }
+
+  .dice {
+    top: 45%; /* Move dice between the two players */
+    height: 8rem;
+  }
+
+  .btn--roll {
+    top: 58%;
+  }
+
+  .btn--hold {
+    top: 66%;
+  }
+
+  /* Add some margin to the bottom player to make room for buttons */
+  .player--1 {
+    padding-top: 15rem; 
+  }
+}
